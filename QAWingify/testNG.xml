@@ -1,0 +1,10 @@
+<suite name="Demo" >
+    <Listeners>
+        <Listener class-name="utils.Listener"></Listener>
+    </Listeners>
+    <test name="Demo test" thread-count="3">
+        <classes>
+            <class name="TestExecution.ExecutionScript"/>
+        </classes>
+    </test>
+</suite>
